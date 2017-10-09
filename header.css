@@ -1,38 +1,48 @@
 .header {
-  border: 3px solid #777;
-  height: 100px;
-  padding: 0;
+  background-color: black;
+}
+
+.header--row {
+  
+}
+
+.header--logo {
+  margin: 0 auto;
+  display: inline-block;
+  width: 20%;
+  text-align: center;
+  color: white;
+  padding: 5px;
 }
 
 .header--left {
   box-sizing: border-box;
-  width: 33%;
+  width: 40%;
   height: 100%;
-  text-align: center;
-  border: 1px solid green;
-  display: inline-block;
-  margin: 0;
-  padding: 0;
-}
-
-.header--center {
-  box-sizing: border-box;
-  width: 33%;
-  height: 100%;
-  text-align: center;
-  border: 1px solid green;
-  display: inline-block;
-  margin: 0;
-  padding: 0;
+  float: right;
+  display: flex;
+  padding: 5px;
 }
 
 .header--right {
   box-sizing: border-box;
-  width: 33%;
-  height: 100%;
-  text-align: center;
-  border: 1px solid green;
+  width: 40%;
+  float: left;
+  display: flex;
+  height: 100%
+  padding: 5px;
+}
+
+.header--item {
+  color: white;
+  width: 45%;
   display: inline-block;
   margin: 0;
   padding: 0;
+  justify-content: center;
+  text-align: center;
+}
+
+.header--item__active {
+  color: orange;
 }
