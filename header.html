@@ -3,16 +3,30 @@
 <head>
   <title>Header Component</title>
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
   <link rel="stylesheet" href="./header.css">
 </head>
 <body>
   <div class="header container-fluid">
     <div class="row header--row">
-      Yo
+      <div class="header--nav">
+        <div class="header--nav-item">
+          Change Location
+        </div>
+        <div class="header--nav-item">
+          Cart
+        </div>
+        <div class="header--nav-item">
+          My Account
+        </div>
+        <div class="header--nav-item">
+          <i class="fa fa-search" aria-hidden="true"></i>
+        </div>
+      </div>
     </div>
     <div class="row header--row">
       <div class="header--left">
-        <div class="header--item">
+        <div class="header--item__active">
           Products
         </div>
         <div class="header--item">
@@ -32,5 +46,8 @@
       </div>
     </div>
   </div>
+    <div style="height: 1000px; width: 100%; position: absolute; top: 0; z-index: -10;">
+      <img src="http://demandware.edgesuite.net/aaxm_prd/on/demandware.static/-/Library-Sites-TraegerSharedLibrary/default/dwe0b2b9b5/images/recipes/DW_Recipe_Peppered_Beef_Jerky_Hero.jpg" />
+    </div>
 </body>
 </html>

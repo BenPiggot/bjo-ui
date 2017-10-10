@@ -1,9 +1,11 @@
 .header {
-  background-color: black;
+  background-color: rgba(0,0,0,0.8);
+  position: absolute;
+  top: 0;
 }
 
 .header--row {
-  
+  padding: 5px;
 }
 
 .header--logo {
@@ -13,6 +15,7 @@
   text-align: center;
   color: white;
   padding: 5px;
+  cursor: pointer;
 }
 
 .header--left {
@@ -29,7 +32,7 @@
   width: 40%;
   float: left;
   display: flex;
-  height: 100%
+  height: 100%;
   padding: 5px;
 }
 
@@ -41,8 +44,30 @@
   padding: 0;
   justify-content: center;
   text-align: center;
+  cursor: pointer;
+  text-transform: uppercase;
 }
 
 .header--item__active {
   color: orange;
+  width: 45%;
+  display: inline-block;
+  margin: 0;
+  padding: 0;
+  justify-content: center;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.header--nav {
+  color: grey;
+  display: flex;
+  margin-left: auto;
+  cursor: pointer;
+}
+
+.header--nav-item {
+  display: inline-block;
+  padding: 5px 8px;
+  cursor: pointer;
 }
